@@ -347,6 +347,12 @@
                 width: 100%;
                 height: 50%;
             }
+            
+            .tamanho-slide-2 {
+                margin-top: 5px;
+                width: 100%;
+                height: 100%;
+            }
             /* FIM - Logo da Pagina Principal Inicial */
             /* Logo da UNEB da Pagina Principal Inicial */
             
@@ -372,16 +378,14 @@
             }
             
             .texto-nome-principal {
-                font-size: 3vmin;
-                font-family: 'Caesar Dressing', cursive;
+                font-size: 2.3vh;
                 color: #333;
                 /*color: rgb(200, 86, 4);*/
             }
             
             .texto-nome {
-                font-size: 1vmin;
+                font-size: .9vh;
                 color: #333;
-                font-family: 'Caesar Dressing', cursive;
             }
             /* FIM - Logo da UNEB da Pagina Principal Inicial */
             
@@ -431,7 +435,6 @@
                 align-items: center;
                 z-index: 0;
                 color: #333;
-                font-family: 'Caesar Dressing', cursive;
                 margin-top: 3%;
             }
             /* FIM - TEXTO PRINCIPAL da Pagina Principal Inicial */
@@ -672,10 +675,6 @@
             /* FIM - Linhas-de-pesquisa */
             /* RODAPE DA PAGINA INICIAL */
             /* Menu do Rodape */
-            
-            .rodape-cor {
-                background-color: #333;
-            }
             /* Rodape - TOPO */
             
             .menu-r-topo {
@@ -774,18 +773,9 @@
             /* Texto acima das redes sociais */
             
             .texto-rodape-redes-sociais {
-                margin-top: .5vh;
                 font-size: 15px;
-                margin-left: 15px;
-                position: relative;
-                color: rgb(255, 255, 255);
-            }
-            
-            .texto-rodape-redes-sociais-inicio {
-                font-size: 15px;
-                margin-left: 15px;
                 margin-top: 1%;
-                position: relative;
+                position: center;
                 color: rgb(255, 255, 255);
             }
             
@@ -794,6 +784,7 @@
                 margin-left: 15px;
                 position: relative;
                 float: left;
+                display: grid;
                 color: rgb(255, 255, 255);
             }
             
@@ -803,14 +794,29 @@
                 color: rgb(255, 255, 255);
             }
             
-            .linha-1-inicio {
-                justify-content: space-evenly;
+            .coluna-1-inicio {
+                display: inline-block;
+                position: relative;
             }
             
-            .linha-icone-inicio {
-                float: inline-end;
-                text-align: right;
-                margin-right: 7.3%;
+            .coluna-1-inicio-1 {
+                display: grid;
+                margin-top: 2vh;
+            }
+            
+            .coluna-1-inicio-2 {
+                display: inline-grid;
+                margin-left: 2vh;
+            }
+            
+            .coluna-1-inicio-3 {
+                display: inline-grid;
+                margin-left: 2vh;
+            }
+            
+            .coluna-icone-inicio {
+                float: right;
+                margin-right: -1%;
             }
             
             .icone-reuniao {
@@ -838,25 +844,20 @@
             
             .contato-icone {
                 color: #ffffff;
-                margin-right: -15vmin;
                 margin-top: .5%;
-                float: right;
+                margin-left: 2.5vh;
                 font-size: 15px;
             }
             
             .contato-icone-2 {
                 color: #ffffff;
-                margin-right: -28%;
                 margin-top: .5%;
-                float: right;
+                margin-left: 7vh;
                 font-size: 15px;
             }
             
             .contato-texto {
                 color: #ffffff;
-                margin-left: 5vmin;
-                margin-right: 8vh;
-                float: right;
                 padding: 5px;
                 font-size: 15px;
             }
@@ -992,7 +993,6 @@
             .id-colaboradores-texto {
                 border-radius: 5px;
                 margin-top: 2vh;
-                font-family: 'IBM Plex Sans Thai Looped', sans-serif;
                 display: inline-block;
                 text-align: left;
             }
